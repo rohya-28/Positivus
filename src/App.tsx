@@ -6,7 +6,7 @@ import { Plus, Minus } from 'lucide-react';
 import { useState } from 'react';
 
 function App() {
-  const [openStep, setOpenStep] = useState(1);
+  const [openStep, setOpenStep] = useState<number | null>(1);
   const [active, setActive] = useState(0);
 
   return (
